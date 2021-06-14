@@ -109,3 +109,5 @@ hs_err_pid*
 *.metals
 
 # End of https://www.gitignore.io/api/d,c++,java,scala,haskell
+
+test/
