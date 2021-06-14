@@ -10,9 +10,12 @@ void main()
 {
     long a = readln.chomp.to!(long);
     string s = readln.chomp;
-    if (3200 <= a) {
-      writeln(s);
-    } else {
-      writeln("red");
+    if (3200 <= a)
+    {
+        writeln(s);
+    }
+    else
+    {
+        writeln("red");
     }
 }

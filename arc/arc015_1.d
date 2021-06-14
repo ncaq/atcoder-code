@@ -8,6 +8,6 @@ import std.string;
 
 void main()
 {
-  long n = readln.chomp.to!(long);
-  writeln(((9 / 5.0) * n) + 32);
+    long n = readln.chomp.to!(long);
+    writeln(((9 / 5.0) * n) + 32);
 }

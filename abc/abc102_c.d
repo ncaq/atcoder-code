@@ -52,8 +52,7 @@ void main()
     sort(a);
     if (a.length % 2 == 0)
     {
-        double median = (a[to!long(floor(a.length / 2.0))] + a[to!long(ceil(a
-                .length / 2.0))]) / 2.0;
+        double median = (a[to!long(floor(a.length / 2.0))] + a[to!long(ceil(a.length / 2.0))]) / 2.0;
         long downer = to!long(floor(median));
         long upper = to!long(ceil(median));
         long b = downer;
